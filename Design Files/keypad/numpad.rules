@@ -1,0 +1,101 @@
+
+(rules PCB numpad
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3437)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 152.6)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 38.2 (type smd_smd))
+  )
+  (padstack "Via[0-1]_508:304.8_um"
+    (shape
+      (circle F.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 508.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_508:304.8_um" "Via[0-1]_508:304.8_um" default
+  )
+  (via 
+    "Via[0-1]_508:304.8_um-kicad_default" "Via[0-1]_508:304.8_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_508:304.8_um-Power" "Via[0-1]_508:304.8_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_508:304.8_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_508:304.8_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_508:304.8_um-Power"
+  )
+  (class default
+    "@:no_net_0" "@:no_net_1"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "COL_1" "COL_2" "COL_3" "COL_4" "ROW_1" "ROW_2" "ROW_3" "ROW_4"
+    "ROW_5" MOSI MISO SCK RESET "Net-(D1-PadA)" "Net-(D2-PadA)" "Net-(D3-PadA)"
+    "Net-(D4-PadA)" "Net-(D5-PadA)" "Net-(D6-PadA)" "Net-(D7-PadA)" "Net-(D8-PadA)" "Net-(D9-PadA)" "Net-(D10-PadA)" "Net-(D11-PadA)"
+    "Net-(D12-PadA)" "Net-(D13-PadA)" "Net-(D14-PadA)" "Net-(D15-PadA)" "Net-(D16-PadA)" "Net-(D17-PadA)" "Net-(D18-PadA)" "Net-(D19-PadA)"
+    "Net-(D20-PadA)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    GND "BACKLIGHT_CTRL" "NEOPIXEL_CTRL" A0 A1 A2 A3 VCC
+    RAW "LED_GND" "Net-(R1-PadP$2)" "Net-(R2-PadP$2)" "Net-(R3-PadP$2)" "Net-(R4-PadP$2)" "Net-(R5-PadP$2)" "Net-(R6-PadP$2)"
+    "Net-(R7-PadP$2)" "Net-(R8-PadP$2)" "Net-(R9-PadP$2)" "Net-(R10-PadP$2)" "Net-(R11-PadP$2)" "Net-(R12-PadP$2)" "Net-(R13-PadP$2)" "Net-(R14-PadP$2)"
+    "Net-(R15-PadP$2)" "Net-(R16-PadP$2)" "Net-(R17-PadP$2)" "Net-(R18-PadP$2)" "Net-(R19-PadP$2)" "Net-(R20-PadP$2)"
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
