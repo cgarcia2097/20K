@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 0)
     (zones 0)
     (modules 27)
@@ -581,8 +581,11 @@
     (fp_line (start 9 -9) (end -9 -9) (layer F.CrtYd) (width 0.12))
   )
 
-  (gr_line (start 99.06 43.18) (end 99.06 149.86) (layer Edge.Cuts) (width 0.05) (tstamp 5D3E99AE))
   (gr_line (start 193.04 36.83) (end 105.41 36.83) (layer Edge.Cuts) (width 0.05) (tstamp 5D3E99AD))
+  (gr_text "Bottom Side" (at 149.225 47.625) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_line (start 99.06 43.18) (end 99.06 149.86) (layer Edge.Cuts) (width 0.05) (tstamp 5D3E99AE))
   (gr_line (start 199.39 149.86) (end 199.39 43.18) (layer Edge.Cuts) (width 0.05) (tstamp 5D3E99AC))
   (gr_line (start 105.41 156.21) (end 193.04 156.21) (layer Edge.Cuts) (width 0.05) (tstamp 5D3E99AB))
   (gr_arc (start 105.41 149.86) (end 99.06 149.86) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5D3E99A1))
