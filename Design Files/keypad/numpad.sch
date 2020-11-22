@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:numpad-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -45,7 +44,7 @@ F 4 "DIO-08378" H 7250 2031 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW1
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW1
 U 1 1 5D268CF4
 P 7250 1600
 F 0 "SW1" H 7250 1823 50  0000 C CNN
@@ -90,7 +89,7 @@ F 4 "DIO-08378" H 8150 2031 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW2
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW2
 U 1 1 5D4EE477
 P 8150 1600
 F 0 "SW2" H 8150 1823 50  0000 C CNN
@@ -135,7 +134,7 @@ F 4 "DIO-08378" H 9050 2031 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW3
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW3
 U 1 1 5D4F2A41
 P 9050 1600
 F 0 "SW3" H 9050 1823 50  0000 C CNN
@@ -180,7 +179,7 @@ F 4 "DIO-08378" H 9950 2031 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW4
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW4
 U 1 1 5D4F2A5A
 P 9950 1600
 F 0 "SW4" H 9950 1823 50  0000 C CNN
@@ -263,7 +262,7 @@ F 4 "DIO-08378" H 7250 2981 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW5
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW5
 U 1 1 5D50A70C
 P 7250 2550
 F 0 "SW5" H 7250 2773 50  0000 C CNN
@@ -308,7 +307,7 @@ F 4 "DIO-08378" H 8150 2981 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW6
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW6
 U 1 1 5D50A725
 P 8150 2550
 F 0 "SW6" H 8150 2773 50  0000 C CNN
@@ -353,7 +352,7 @@ F 4 "DIO-08378" H 9050 2981 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW7
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW7
 U 1 1 5D50A73E
 P 9050 2550
 F 0 "SW7" H 9050 2773 50  0000 C CNN
@@ -398,7 +397,7 @@ F 4 "DIO-08378" H 9950 2981 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW8
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW8
 U 1 1 5D50A757
 P 9950 2550
 F 0 "SW8" H 9950 2773 50  0000 C CNN
@@ -481,7 +480,7 @@ F 4 "DIO-08378" H 7250 3931 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW9
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW9
 U 1 1 5D51F45C
 P 7250 3500
 F 0 "SW9" H 7250 3723 50  0000 C CNN
@@ -526,7 +525,7 @@ F 4 "DIO-08378" H 8150 3931 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW10
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW10
 U 1 1 5D51F475
 P 8150 3500
 F 0 "SW10" H 8150 3723 50  0000 C CNN
@@ -571,7 +570,7 @@ F 4 "DIO-08378" H 9050 3931 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW11
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW11
 U 1 1 5D51F48E
 P 9050 3500
 F 0 "SW11" H 9050 3723 50  0000 C CNN
@@ -616,7 +615,7 @@ F 4 "DIO-08378" H 9950 3931 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW12
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW12
 U 1 1 5D51F4A7
 P 9950 3500
 F 0 "SW12" H 9950 3723 50  0000 C CNN
@@ -699,7 +698,7 @@ F 4 "DIO-08378" H 7250 4881 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW13
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW13
 U 1 1 5D51F4D6
 P 7250 4450
 F 0 "SW13" H 7250 4673 50  0000 C CNN
@@ -744,7 +743,7 @@ F 4 "DIO-08378" H 8150 4881 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW14
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW14
 U 1 1 5D51F4EF
 P 8150 4450
 F 0 "SW14" H 8150 4673 50  0000 C CNN
@@ -789,7 +788,7 @@ F 4 "DIO-08378" H 9050 4881 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW15
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW15
 U 1 1 5D51F508
 P 9050 4450
 F 0 "SW15" H 9050 4673 50  0000 C CNN
@@ -834,7 +833,7 @@ F 4 "DIO-08378" H 9950 4881 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW16
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW16
 U 1 1 5D51F521
 P 9950 4450
 F 0 "SW16" H 9950 4673 50  0000 C CNN
@@ -917,7 +916,7 @@ F 4 "DIO-08378" H 7250 5831 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW17
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW17
 U 1 1 5D53AD04
 P 7250 5400
 F 0 "SW17" H 7250 5623 50  0000 C CNN
@@ -962,7 +961,7 @@ F 4 "DIO-08378" H 8150 5831 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW18
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW18
 U 1 1 5D53AD1D
 P 8150 5400
 F 0 "SW18" H 8150 5623 50  0000 C CNN
@@ -1007,7 +1006,7 @@ F 4 "DIO-08378" H 9050 5831 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW19
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW19
 U 1 1 5D53AD36
 P 9050 5400
 F 0 "SW19" H 9050 5623 50  0000 C CNN
@@ -1052,7 +1051,7 @@ F 4 "DIO-08378" H 9950 5831 60  0001 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L libkeyswitch-1_0_0:KEYSW_LED SW20
+L numpad-rescue:KEYSW_LED-libkeyswitch-1_0_0 SW20
 U 1 1 5D53AD4F
 P 9950 5400
 F 0 "SW20" H 9950 5623 50  0000 C CNN
@@ -1736,4 +1735,8 @@ Text Notes 1500 5250 0    50   ~ 0
 Neopixel Header
 Text Notes 8350 6300 0    50   ~ 0
 Key Matrix and Backlighting
+Text Notes 650  2050 0    50   ~ 0
+ATMega32u4 Pinouts \n(For use with QMK and Keyboard Firmware Builder)\n\nCols:\n- PD3, PD2, PD1, PD0\n\nRows:\n- PD4, PC6, PD7, PE6, PB4\n\nBacklight:\n- PB5\n\nNeopixel Strip:\n- PB6
+Text Notes 650  850  0    100  ~ 20
+Numpad
 $EndSCHEMATC

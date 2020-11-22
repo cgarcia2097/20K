@@ -1734,4 +1734,6 @@ Text Notes 1750 6050 0    50   ~ 0
 Reset Switch
 Text Notes 1500 5250 0    50   ~ 0
 Neopixel Header
+Text Notes 8350 6300 0    50   ~ 0
+Key Matrix and Backlighting
 $EndSCHEMATC
